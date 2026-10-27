@@ -21,7 +21,9 @@ p{margin:0 0 1em;max-width:68ch}
 /* Kopfzeile */
 .kopf{position:sticky;top:0;z-index:10;background:var(--wald);color:#fff}
 .kopf .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:4rem}
-.logo{font:700 1.35rem var(--head);color:#fff;text-decoration:none}
+.logo{display:inline-flex;align-items:center;gap:.6rem;font:700 1.35rem var(--head);color:#fff;text-decoration:none;text-transform:uppercase;letter-spacing:.06em}
+.logo svg{width:2rem;height:2rem;color:var(--orange);flex:none}
+.logo span{font-size:.7em;letter-spacing:.1em}
 .logo span{color:var(--orange)}
 .nav{display:flex;gap:1.4rem;align-items:center}
 .nav a{color:#dfe7dc;text-decoration:none;font-weight:500}
